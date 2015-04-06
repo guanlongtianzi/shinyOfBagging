@@ -1,6 +1,6 @@
 # shinyOfBagging
 基于shiny的Bagging，使用到了`shiny`、`RWeaka`、`shinyAce`、`rmarkdown`、`ggplot2`、`gridExtra`、`knitr`等`R`package，使用方法为：
-```s
+```R
 if(!require(shiny)) {
   install.packages(pkgs = 'shiny',quiet = TRUE)
   require(shiny)
